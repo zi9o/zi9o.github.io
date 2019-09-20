@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  me:
+    build:
+      context: .
+    container_name: zi9o-github
+    restart: always
+    environment: 
+      VIRTUAL_HOST: zakariaelfakhry.me
+
+
+networks:
+  default:
+    external:
+      name: nginx-proxy
