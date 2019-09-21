@@ -8,6 +8,7 @@ services:
     restart: always
     environment: 
       VIRTUAL_HOST: zakariaelfakhry.me
+      LETSENCRYPT_HOST: zakariaelfakhry.me
 
 
 networks:
